@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        button {
+            padding: 15px;
+            margin: 5cm;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+        }
+
+        #yesButton {
+            background-color: red;
+        }
+
+        #noButton {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<button id="yesButton" onclick="startGame()">Yes</button>
+<button id="noButton" onclick="closePage()">No</button>
+
+<script>
+    function startGame() {
+        // Code pour lancer le jeu Dinochrome
+        alert("Le jeu Dinochrome se lance !");
+    }
+
+    function closePage() {
+        // Code pour fermer la page
+        window.close();
+    }
+</script>
+
+</body>
+</html>
+
